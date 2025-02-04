@@ -94,7 +94,7 @@
             <span class="rp">Republic of the Philippines</span><br />
                 <span class="de">Department of Education</span><br />
                 <span class="r">Region XI</span><br />
-                <span class="r">Schools Division of Davao Oriental</span>
+                <span class="r">Schools Division of Davao De Oro</span>
             </p>
 
             <div class="hr" style="margin:10px 0"></div>

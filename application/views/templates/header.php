@@ -241,7 +241,7 @@
                             <?php elseif ($this->session->position ===  'Human Resource Admin' || $this->session->position === 'asds') : ?>
 
                                 <li><a href="<?= base_url(); ?>" class="waves-effect"><i class="fas fa-user-alt"></i><span> Dashboard </span></a></li>
-                                <li>
+                                <!-- <li>
                                     <a href="javascript: void(0);" class="waves-effect">
                                         <i class="far fa-address-book "></i>
                                         <span> Personnel </span>
@@ -264,21 +264,20 @@
                                             </ul>
                                         </li>
                                         <li><a href="<?= base_url(); ?>Page/pos_summary">Per Position Title</a></li>
-                                        <!-- <li><a href="#">Per Date Hired</a></li> -->
                                         <li><a href="<?= base_url(); ?>Page/perAppointmentDate">Per Appointment Date</a></li>
                                         <li><a href="<?= base_url(); ?>Page/retirement">Per Retirement Year</a></li>
                                         <li><a href="<?= base_url(); ?>Page/sg_summary">Per Salary Grade</a></li>
                                         <li><a href="<?= base_url(); ?>Page/loyalty">Loyalty</a></li>
                                         <li><a href="<?= base_url(); ?>Page/viewfilesAll">201 Files</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
 
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="mdi mdi-view-compact-outline "></i>
                                         <span> Plantilla </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <!-- <li><a href="<?= base_url(); ?>items/0">Plantilla Positions</a></li> -->
                                         <!-- <li><a href="<?= base_url(); ?>items/1">Unfilled Items</a></li> -->
@@ -289,11 +288,11 @@
                                 </li>
 
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="ion ion-ios-attach"></i>
                                         <span> Service Record </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/serviceRecord">Service Record List</a></li>
                                         <li><a href="<?= base_url(); ?>Page/empList">Service Record Printing</a></li>
@@ -303,11 +302,11 @@
                                 </li>
 
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="mdi mdi-check-underline-circle "></i>
                                         <span> Leave </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <!-- <li><a href="#">Leave Application</a></li> -->
                                         <li><a href="<?= base_url(); ?>Page/leaveCredits">Generate Monthly LC</a></li>
@@ -340,11 +339,11 @@
 
                                 <?php if ($this->session->position === 'Admin') { ?>
                                     <li>
-                                        <a href="javascript: void(0);" class="waves-effect">
+                                        <!-- <a href="javascript: void(0);" class="waves-effect">
                                             <i class="fas fa-scroll"></i>
                                             <spa>Implementation Plans</span>
                                                 <span class="menu-arrow"></span>
-                                        </a>
+                                        </a> -->
                                         <ul class="nav-second-level" aria-expanded="false">
 
                                             <li><a href="<?= base_url(); ?>Page/aip_sub">Submitted AIP</a></li>
@@ -355,11 +354,11 @@
                                 <?php } ?>
 
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="mdi mdi-notebook-multiple "></i>
                                         <span>Learning and Dev't.</span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/tnSummary">Training Needs</a></li>
                                         <li><a href="<?= base_url(); ?>Page/idHR">Development Plan</a></li>
@@ -387,7 +386,7 @@
                                 <?php } ?>
                                 <li><a href="<?= base_url(); ?>hrusers" class="waves-effect"><i class="ion ion-ios-person-add"></i><span> Manage Users </span></a></li>
                                 <li><a href="<?= base_url(); ?>Users/users_sub" class="waves-effect"><i class="fas fa-user-tie"></i>Manage Sub Users</a></li>
-                                <li><a href="<?= base_url(); ?>Page/empReports" class="waves-effect"><i class="mdi mdi-equalizer "></i><span> Reports </span></a></li>
+                                <!-- <li><a href="<?= base_url(); ?>Page/empReports" class="waves-effect"><i class="mdi mdi-equalizer "></i><span> Reports </span></a></li> -->
                                 <li><a href="<?= base_url(); ?>Page/announcements" class="waves-effect"><i class="fab fa-buromobelexperte"></i><span>Announcements </span></a></li>
                                 <li><a href="<?= base_url(); ?>Page/systemFeedback" class="waves-effect"><i class="fas fa-box "></i><span>System Feedback Form </span></a></li>
                                 <li><a href="<?= base_url(); ?>Page/systemHelp" class="waves-effect"><i class=" fas fa-marker"></i><span>Help </span></a></li>
@@ -555,11 +554,11 @@
                             <?php elseif ($this->session->userdata('position') === 'HR Staff') : ?>
                                 <li><a href="<?= base_url(); ?>" class="waves-effect"><i class="fas fa-user-alt"></i><span> Dashboard </span></a></li>
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="far fa-address-book "></i>
                                         <span> Personnel </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>personnel">Master List</a></li>
                                         <li>
@@ -586,11 +585,11 @@
                                 </li>
 
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="mdi mdi-view-compact-outline "></i>
                                         <span> Plantilla </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <!-- <li><a href="<?= base_url(); ?>items/0">Plantilla Positions</a></li> -->
                                         <!-- <li><a href="<?= base_url(); ?>items/1">Unfilled Items</a></li> -->
@@ -600,11 +599,11 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="ion ion-ios-attach"></i>
                                         <span> Service Record </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/serviceRecord">Service Record List</a></li>
                                         <li><a href="<?= base_url(); ?>Page/empList">Service Record Printing</a></li>
@@ -613,11 +612,11 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="mdi mdi-check-underline-circle "></i>
                                         <span> Leave </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/leaveCredits">Generate Monthly LC</a></li>
                                         <li><a href="<?= base_url(); ?>Page/leaveCreditsMonthly">Monthly Leave Credits</a></li>
@@ -640,11 +639,11 @@
                                 </li>
 
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="mdi mdi-notebook-multiple "></i>
                                         <span>Learning and Dev't.</span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/tnSummary">Training Needs</a></li>
                                         <li><a href="<?= base_url(); ?>Page/idHR">Development Plan</a></li>
@@ -669,7 +668,7 @@
                                 </li>
 
                                 <!-- <li><a href="<?= base_url(); ?>users" class="waves-effect"><i class="ion ion-ios-person-add"></i><span> Manage Users </span></a></li> -->
-                                <li><a href="<?= base_url(); ?>Page/empReports" class="waves-effect"><i class="mdi mdi-equalizer "></i><span> Reports </span></a></li>
+                                <!-- <li><a href="<?= base_url(); ?>Page/empReports" class="waves-effect"><i class="mdi mdi-equalizer "></i><span> Reports </span></a></li> -->
                                 <li><a href="<?= base_url(); ?>Page/systemFeedback" class="waves-effect"><i class="fas fa-box "></i><span>System Feedback Form </span></a></li>
                                 <li><a href="<?= base_url(); ?>Page/systemHelp" class="waves-effect"><i class=" fas fa-marker"></i><span>Help </span></a></li>
 
@@ -712,11 +711,11 @@
                                 <li><a href="<?= base_url(); ?>Page/individualDevelopment" class="waves-effect"><i class="ion ion-ios-filing "></i><span>Individual Development </span></a></li>
                                 <li><a href="<?= base_url(); ?>Page/empServiceRecord" class="waves-effect"><i class=" ion ion-ios-attach"></i><span>Service Record </span></a></li>
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="fas fa-cash-register"></i>
                                         <span> Payroll </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/empSalaryHistory">Salary History</a></li>
                                         <li><a href="<?= base_url(); ?>Page/mandatoryDed">Monthly Mandatory Deductions</a></li>
@@ -726,22 +725,22 @@
                                 </li>
 
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="mdi mdi-check-underline-circle "></i>
                                         <span> Leave </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/leaveApplications">Leave Application</a></li>
                                         <!-- <li><a href="<?= base_url(); ?>Page/leaveHistory">Leave History</a></li> -->
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="javascript: void(0);" class="waves-effect">
+                                    <!-- <a href="javascript: void(0);" class="waves-effect">
                                         <i class="fas fa-angle-double-right"></i>
                                         <span> Request </span>
                                         <span class="menu-arrow"></span>
-                                    </a>
+                                    </a> -->
                                     <ul class="nav-second-level" aria-expanded="false">
                                         <li><a href="<?= base_url(); ?>Page/sr_request">Service Record</a></li>
                                     </ul>

@@ -291,13 +291,15 @@
                                                         <div class="form-group row">
                                                             <label for="inputEmail3" class="col-md-3 col-form-label">Position Title</label>
                                                             <div class="col-md-9">
-                                                                <select class="form-control" name="jobTitle" id="job-title-select">
+
+                                                            <input type="text" class="form-control" name="jobTitle" id="job-title" required>
+                                                                <!-- <select class="form-control" name="jobTitle" id="job-title-select">
                                                                     <option></option>
                                                                     <?php foreach($pos_title as $row){?>
                                                                     <option value="<?= $row->title; ?>" data-pos_id="<?= $row->pos_id; ?>" ><?= $row->title; ?></option>
                                                                     <?php } ?>
 
-                                                                </select>
+                                                                </select> -->
                                                             </div>
                                                         </div>
                                                         <div id="teaching-group-type" style="display:none;">

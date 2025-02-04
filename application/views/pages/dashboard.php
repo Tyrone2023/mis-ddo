@@ -89,7 +89,7 @@
                         </div>
                         <!-- End row -->
 
-                        <?php if ($this->session->position != 'Admin'){ ?>
+                        <!-- <?php if ($this->session->position != 'Admin'){ ?>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card">
@@ -127,7 +127,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- end card-->
 
                             </div>
